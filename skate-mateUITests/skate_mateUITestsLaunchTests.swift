@@ -1,13 +1,13 @@
 //
-//  Skate_Mate_IceUITestsLaunchTests.swift
-//  Skate Mate IceUITests
+//  skate_mateUITestsLaunchTests.swift
+//  skate-mateUITests
 //
-//  Created by Max Gabriel Susman on 8/3/24.
+//  Created by Max Gabriel Susman on 8/6/24.
 //
 
 import XCTest
 
-final class Skate_Mate_IceUITestsLaunchTests: XCTestCase {
+final class skate_mateUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

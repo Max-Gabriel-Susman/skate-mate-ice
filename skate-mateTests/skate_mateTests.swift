@@ -1,14 +1,14 @@
 //
-//  Skate_Mate_IceTests.swift
-//  Skate Mate IceTests
+//  skate_mateTests.swift
+//  skate-mateTests
 //
-//  Created by Max Gabriel Susman on 8/3/24.
+//  Created by Max Gabriel Susman on 8/6/24.
 //
 
 import XCTest
-@testable import Skate_Mate_Ice
+@testable import skate_mate
 
-final class Skate_Mate_IceTests: XCTestCase {
+final class skate_mateTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
