@@ -33,10 +33,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIc-f9-zc5">
-                                <rect key="frame" x="138" y="169" width="99" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIc-f9-zc5">
+                                <rect key="frame" x="87" y="176" width="200" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Central Mode">
+                                <state key="normal" title="Activate Skate Mate">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="highlighted">
@@ -63,6 +63,7 @@
         <!--Central-->
         <scene sceneID="aZ8-7Q-SUs">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lnF-XD-lhu" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController title="Central" id="fSl-V7-HRz" customClass="CentralViewController" customModule="CoreBluetoothLESample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7iS-HE-dyC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
@@ -92,7 +93,6 @@
                         <outlet property="textView" destination="nnY-OJ-Igu" id="v7W-7w-rgT"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lnF-XD-lhu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="814" y="-64"/>
         </scene>
