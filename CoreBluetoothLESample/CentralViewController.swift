@@ -189,11 +189,11 @@ extension CentralViewController: CBCentralManagerDelegate {
         
         // Reject if the signal strength is too low to attempt data transfer.
         // Change the minimum RSSI value depending on your app’s use case.
-        guard RSSI.intValue >= -50
-            else {
-                os_log("Discovered perhiperal not in expected range, at %d", RSSI.intValue)
-                return
-        }
+//        guard RSSI.intValue >= -50
+//            else {
+//                os_log("Discovered perhiperal not in expected range, at %d", RSSI.intValue)
+//                return
+//        }
         
         os_log("Discovered %s at %d", String(describing: peripheral.name), RSSI.intValue)
         
